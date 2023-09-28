@@ -38,11 +38,11 @@ else:
 
 
 class PlanStatus(models.TextChoices):
-    NOT_STARTED = ("not_started", _("not started"))
-    STARTED = ("started", _("started"))
-    PARTIALLY_IMPLEMENTED = ("partially_implemented", _("partially implemented"))
-    IMPLEMENTED = ("implemented", _("implemented"))
-    DEFERRED = ("deferred", _("deferred"))
+    NOT_STARTED = ("not_started", _("nicht begonnen"))
+    STARTED = ("started", _("begonnen"))
+    PARTIALLY_IMPLEMENTED = ("partially_implemented", _("teilweise umgesetzt"))
+    IMPLEMENTED = ("implemented", _("umgesetzt"))
+    DEFERRED = ("deferred", _("verschoben"))
 
 
 STATUS_CSS = {
